@@ -246,6 +246,25 @@ const Footer = memo(function Footer({ config, className = "" }: FooterProps) {
                 />
               </a>
             )}
+            {config.SOCIAL_SHORTCUTS && (
+              <a
+                href={config.SOCIAL_SHORTCUTS}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                title="快捷指令"
+              >
+                <img
+                  src="/logo_shortcuts.svg"
+                  alt="快捷指令"
+                  width={20}
+                  height={20}
+                  className="filter-muted hover:filter-none transition-all"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+            )}
                         {config.SOCIAL_WECHAT && (
               <a
                 href={config.SOCIAL_WECHAT}
