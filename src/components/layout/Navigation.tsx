@@ -165,7 +165,7 @@ const Navigation = memo(function Navigation({ categories, config = defaultConfig
       <nav className="lg:hidden fixed top-0 left-0 right-0 z-20 bg-background border-b">
         <div className="flex items-center justify-between px-4 h-16">
           <div className="flex items-center space-x-2 flex-shrink-0">
-            <Icons.ShoppingBag className="w-5 h-5 text-foreground" />
+            <Icons.Layers2 className="w-5 h-5 text-foreground" />
             <span className="neon-title text-sm sm:text-base truncate max-w-[120px] sm:max-w-[200px]">{config.SITE_TITLE}</span>
           </div>
           <div className="flex-1 mx-2 min-w-0">
@@ -207,7 +207,7 @@ const Navigation = memo(function Navigation({ categories, config = defaultConfig
       <nav className="hidden lg:block w-[280px] flex-shrink-0 h-screen sticky top-0 p-4 overflow-y-auto border-r">
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center space-x-2">
-            <Icons.ShoppingBag className="w-5 h-5 text-foreground" />
+            <Icons.Layers2 className="w-5 h-5 text-foreground" />
             <span className="neon-title">{config.SITE_TITLE}</span>
           </div>
           {config.SHOW_THEME_SWITCHER !== 'false' && <ThemeSwitcher />}

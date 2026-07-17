@@ -308,7 +308,10 @@ const Footer = memo(function Footer({ config, className = "" }: FooterProps) {
             <p className="hidden md:block text-sm text-muted-foreground">
             </p>
             <p className="text-sm text-muted-foreground">
-              {config.SITE_AUTHOR} · 你的省钱生活指南
+              <a href="https://www.199909.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                榴莲哥
+              </a>
+              {' '}· 一个专注分享优质资源的博主
             </p>
           </div>
         </div>
