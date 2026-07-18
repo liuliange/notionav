@@ -134,17 +134,17 @@ const LinkContainer = memo(function LinkContainer({
         <div className="text-center py-12">
           <p className="text-sm text-muted-foreground">
             没有找到与“<span className="font-medium text-foreground">{searchQuery.trim()}</span>”相关的结果，
-            添加客服微信 <span className="font-medium">525821377</span> 帮忙查询，
+            添加客服微信 <span className="font-medium">525821377</span> 帮忙，
             或
             <a
-              href="https://jianpianyi.cn"
+              href="https://199909.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block ml-1 px-2 py-0.5 rounded-full text-xs font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors no-underline"
             >
               点击这里
             </a>
-            前往首页查看更多优惠
+            前往首页查看
           </p>
         </div>
       )}

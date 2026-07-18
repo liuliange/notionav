@@ -10,8 +10,8 @@ export function Search() {
     <div className='relative flex items-center w-full max-w-xs'>
       <input
         type='text'
-        placeholder='搜索优惠券'
-        className='w-full pl-3 pr-8 py-1.5 text-base rounded-md border border-gray-300 bg-white text-gray-900 placeholder:text-gray-400 focus:outline-none'
+        placeholder='搜一搜'
+        className='w-full pl-3 pr-8 py-1.5 text-base text-center rounded-md border border-gray-300 bg-white text-gray-900 placeholder:text-gray-400 focus:placeholder:text-transparent focus:outline-none'
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
         autoCorrect='off'

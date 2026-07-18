@@ -265,6 +265,25 @@ const Footer = memo(function Footer({ config, className = "" }: FooterProps) {
                 />
               </a>
             )}
+            {config.SOCIAL_GZH && (
+              <a
+                href={config.SOCIAL_GZH}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                title="公众号"
+              >
+                <img
+                  src="/logo_gzh.svg"
+                  alt="公众号"
+                  width={20}
+                  height={20}
+                  className="filter-muted hover:filter-none transition-all"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+            )}
                         {config.SOCIAL_WECHAT && (
               <a
                 href={config.SOCIAL_WECHAT}
@@ -308,7 +327,7 @@ const Footer = memo(function Footer({ config, className = "" }: FooterProps) {
             <p className="hidden md:block text-sm text-muted-foreground">
             </p>
             <p className="text-sm text-muted-foreground">
-              <a href="https://www.199909.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+              <a href="https://www.199909.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
                 榴莲哥
               </a>
               {' '}· 一个专注分享优质资源的博主
