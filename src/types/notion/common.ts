@@ -68,3 +68,10 @@ export function extractMultiSelect(prop: MultiSelectPropertyItemObjectResponse):
     }
     return [];
 }
+
+/**
+ * 解析 Notion select 类型的颜色属性（链接卡片配色）。
+ */
+export function extractColor(property: SelectPropertyItemObjectResponse | unknown): string {
+    return extractSelect(property);
+}
